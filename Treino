@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Plano Interativo de Treino</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; color: #333; }
+        header { background: #222; color: #fff; padding: 20px; text-align: center; }
+        nav { background: #333; display: flex; justify-content: center; flex-wrap: wrap; padding: 10px; }
+        nav button {
+            background: #444; color: #fff; border: none;
+            margin: 5px; padding: 10px 20px; border-radius: 5px;
+            font-size: 16px; cursor: pointer;
+        }
+        nav button.active { background: #008cba; }
+        section { display: none; max-width: 900px; margin: 20px auto; background: #fff;
+                  padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        section.active { display: block; }
+        h2 { border-bottom: 2px solid #ccc; padding-bottom: 5px; }
+        h3 { margin-top: 20px; }
+        a.button { display: inline-block; margin-top: 10px; padding: 8px 16px;
+                   background: #337ab7; color: white; text-decoration: none; border-radius: 4px; }
+        a.button:hover { background: #23527c; }
+        hr { margin: 20px 0; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Plano Interativo de Treino</h1>
+    <p>Escolha um treino abaixo para ver os exercícios</p>
+</header>
+
+<nav>
+    <button onclick="showSection('treinoA')" id="btn-treinoA">Treino A</button>
+    <button onclick="showSection('treinoB')" id="btn-treinoB">Treino B</button>
+    <button onclick="showSection('treinoC')" id="btn-treinoC">Treino C</button>
+    <button onclick="showSection('alongamento')" id="btn-alongamento">Alongamento</button>
+</nav>
+<section id="treinoA"><h2>Treino A – Pernas + Core</h2>
+    <div>
+        <h3>Agachamento no Banco</h3>
+        <p><strong>Descrição:</strong> Posicione-se em frente a um banco, com os pés afastados na largura dos ombros. Desça lentamente até sentar no banco, mantendo a coluna reta e o abdômen contraído.</p>
+        <p><strong>Músculos trabalhados:</strong> Quadríceps, glúteos, isquiotibiais</p>
+        <p><strong>Objetivo:</strong> Força de membros inferiores</p>
+        <a class="button" href="https://www.youtube.com/watch?v=QKKZ9AGYTi4" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Stiff com Halteres</h3>
+        <p><strong>Descrição:</strong> Incline o tronco com halteres, mantendo as costas retas e joelhos levemente flexionados.</p>
+        <p><strong>Músculos trabalhados:</strong> Isquiotibiais e glúteos</p>
+        <p><strong>Objetivo:</strong> Posteriores da coxa e estabilidade lombar</p>
+        <a class="button" href="https://www.youtube.com/watch?v=VZ1EHQCkU5I" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Afundo no Step</h3>
+        <p><strong>Descrição:</strong> Dê um passo à frente em um step, flexionando os dois joelhos em 90°.</p>
+        <p><strong>Músculos trabalhados:</strong> Quadríceps, glúteos</p>
+        <p><strong>Objetivo:</strong> Estabilidade unilateral e força funcional</p>
+        <a class="button" href="https://www.youtube.com/watch?v=8pG4gHfxY1Y" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Elevação Pélvica</h3>
+        <p><strong>Descrição:</strong> Deite-se com os pés apoiados e eleve o quadril, contraindo os glúteos.</p>
+        <p><strong>Músculos trabalhados:</strong> Glúteos, lombar</p>
+        <p><strong>Objetivo:</strong> Fortalecimento de cadeia posterior</p>
+        <a class="button" href="https://www.youtube.com/watch?v=6-6nXAkJ4fQ" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Prancha Abdominal</h3>
+        <p><strong>Descrição:</strong> Apoie antebraços e ponta dos pés no chão, mantendo o corpo alinhado.</p>
+        <p><strong>Músculos trabalhados:</strong> Abdômen, core</p>
+        <p><strong>Objetivo:</strong> Estabilização do tronco</p>
+        <a class="button" href="https://www.youtube.com/watch?v=ASdvN_XEl_c" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Prancha Lateral</h3>
+        <p><strong>Descrição:</strong> Apoie um antebraço e a lateral dos pés, elevando o corpo lateralmente.</p>
+        <p><strong>Músculos trabalhados:</strong> Oblíquos, core</p>
+        <p><strong>Objetivo:</strong> Estabilidade lateral</p>
+        <a class="button" href="https://www.youtube.com/watch?v=K3D1fYtsb3E" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr></section><section id="treinoB"><h2>Treino B – Superiores + Cardio</h2>
+    <div>
+        <h3>Supino com Halteres</h3>
+        <p><strong>Descrição:</strong> Deite-se em um banco e empurre os halteres para cima, estendendo os braços.</p>
+        <p><strong>Músculos trabalhados:</strong> Peitoral, tríceps, ombros</p>
+        <p><strong>Objetivo:</strong> Força de tronco</p>
+        <a class="button" href="https://www.youtube.com/watch?v=VmB1G1K7v94" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Remada Baixa</h3>
+        <p><strong>Descrição:</strong> Puxe a barra em direção ao abdômen com pegada neutra.</p>
+        <p><strong>Músculos trabalhados:</strong> Dorsal, bíceps</p>
+        <p><strong>Objetivo:</strong> Fortalecimento das costas</p>
+        <a class="button" href="https://www.youtube.com/watch?v=6TSP1TRMUzs" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Elevação Lateral</h3>
+        <p><strong>Descrição:</strong> Eleve os braços lateralmente até a altura dos ombros.</p>
+        <p><strong>Músculos trabalhados:</strong> Deltoides</p>
+        <p><strong>Objetivo:</strong> Fortalecimento dos ombros</p>
+        <a class="button" href="https://www.youtube.com/watch?v=qEwKCR5JCog" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Tríceps no Banco</h3>
+        <p><strong>Descrição:</strong> Apoie as mãos no banco e flexione os cotovelos para descer o tronco.</p>
+        <p><strong>Músculos trabalhados:</strong> Tríceps braquial</p>
+        <p><strong>Objetivo:</strong> Isolamento e força de braço</p>
+        <a class="button" href="https://www.youtube.com/watch?v=6kALZikXxLc" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Rosca Direta com Halteres</h3>
+        <p><strong>Descrição:</strong> Flexione os braços com halteres, contraindo o bíceps.</p>
+        <p><strong>Músculos trabalhados:</strong> Bíceps braquial</p>
+        <p><strong>Objetivo:</strong> Força de braço</p>
+        <a class="button" href="https://www.youtube.com/watch?v=kwG2ipFRgfo" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Cardio Leve (Bike)</h3>
+        <p><strong>Descrição:</strong> Pedale de forma contínua por 20 a 30 minutos.</p>
+        <p><strong>Músculos trabalhados:</strong> Cardiovascular</p>
+        <p><strong>Objetivo:</strong> Queima de gordura e condicionamento</p>
+        <a class="button" href="https://www.youtube.com/watch?v=5LQ0-gq5jFk" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr></section><section id="treinoC"><h2>Treino C – Funcional + Mobilidade</h2>
+    <div>
+        <h3>Polichinelo</h3>
+        <p><strong>Descrição:</strong> Salte abrindo pernas e braços simultaneamente.</p>
+        <p><strong>Músculos trabalhados:</strong> Corpo inteiro</p>
+        <p><strong>Objetivo:</strong> Aquecimento geral</p>
+        <a class="button" href="https://www.youtube.com/watch?v=c4DAnQ6DtF8" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Agachamento Isométrico</h3>
+        <p><strong>Descrição:</strong> Sente-se imaginariamente com costas na parede, mantendo a posição.</p>
+        <p><strong>Músculos trabalhados:</strong> Quadríceps, glúteos</p>
+        <p><strong>Objetivo:</strong> Resistência muscular</p>
+        <a class="button" href="https://www.youtube.com/watch?v=NC6GIWXYaeA" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Prancha Dinâmica</h3>
+        <p><strong>Descrição:</strong> Na prancha, leve os joelhos alternadamente ao cotovelo.</p>
+        <p><strong>Músculos trabalhados:</strong> Core, oblíquos</p>
+        <p><strong>Objetivo:</strong> Estabilidade e mobilidade</p>
+        <a class="button" href="https://www.youtube.com/watch?v=hZsCwocZ8wM" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Mobilidade de Quadril</h3>
+        <p><strong>Descrição:</strong> Faça rotações e alongamentos dinâmicos com as pernas.</p>
+        <p><strong>Músculos trabalhados:</strong> Quadril, glúteos</p>
+        <p><strong>Objetivo:</strong> Mobilidade e prevenção</p>
+        <a class="button" href="https://www.youtube.com/watch?v=n4dhlCkoy0w" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Mobilidade de Tornozelo</h3>
+        <p><strong>Descrição:</strong> Flexione o joelho à frente do pé, mantendo o calcanhar no chão.</p>
+        <p><strong>Músculos trabalhados:</strong> Panturrilha, tornozelo</p>
+        <p><strong>Objetivo:</strong> Estabilidade e mobilidade articular</p>
+        <a class="button" href="https://www.youtube.com/watch?v=doLQ_VzwYzw" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr></section><section id="alongamento"><h2>Alongamentos</h2>
+    <div>
+        <h3>Alongamento Posterior</h3>
+        <p><strong>Descrição:</strong> Toque os pés com as pernas estendidas.</p>
+        <p><strong>Músculos trabalhados:</strong> Posteriores da coxa</p>
+        <p><strong>Objetivo:</strong> Flexibilidade e prevenção</p>
+        <a class="button" href="https://www.youtube.com/watch?v=9vAGHhCMkDU" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Alongamento Glúteo</h3>
+        <p><strong>Descrição:</strong> Cruze uma perna sobre a outra e puxe em direção ao peito.</p>
+        <p><strong>Músculos trabalhados:</strong> Glúteos</p>
+        <p><strong>Objetivo:</strong> Liberação de tensão</p>
+        <a class="button" href="https://www.youtube.com/watch?v=7jB9seR4bL8" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr>
+    <div>
+        <h3>Alongamento Panturrilha</h3>
+        <p><strong>Descrição:</strong> Incline-se contra a parede com uma perna atrás e calcanhar no chão.</p>
+        <p><strong>Músculos trabalhados:</strong> Panturrilhas</p>
+        <p><strong>Objetivo:</strong> Prevenção de câimbras</p>
+        <a class="button" href="https://www.youtube.com/watch?v=Q7lmfR8nJhI" target="_blank">▶️ Assistir vídeo</a>
+    </div><hr></section>
+<script>
+function showSection(id) {
+    document.querySelectorAll("section").forEach(s => s.classList.remove("active"));
+    document.querySelectorAll("nav button").forEach(b => b.classList.remove("active"));
+    document.getElementById(id).classList.add("active");
+    document.getElementById("btn-" + id).classList.add("active");
+}
+window.onload = () => showSection("treinoA");
+</script>
+
+</body>
+</html>
